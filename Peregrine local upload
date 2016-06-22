@@ -1,0 +1,17 @@
+#local terminal
+#go to the target folder
+cd Dropbox/  
+cd R/
+cd cluster/
+
+# copy folder from local to cluster
+RN-145-97-167-57:cluster mac$ scp *.* p274981@peregrine.hpc.rug.nl:/home/p274981 
+
+# connect cluster
+ssh -X 274981@peregrine.hpc.rug.nl
+
+# check the files
+ls
+
+# run scripts
+sbatch ...
