@@ -16,3 +16,6 @@ install.packages("DDD")
 # installed packages
 The downloaded source packages are in
 	'/tmp/Rtmpceb77j/downloaded_packages'
+	
+# search "as" on cluster	
+egrep -iR "as" --include=~/R/x86_64-pc-linux-gnu-library/3.2/expoRkit/R/*.R
