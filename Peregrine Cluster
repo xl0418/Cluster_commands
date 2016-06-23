@@ -1,0 +1,18 @@
+# edit file
+nano *.*
+
+# read file
+cat *.*
+
+#check jot queue
+squeue -u $USER
+
+# run script
+sbatch *.sh
+
+# install packages
+install.packages("DDD")
+
+# installed packages
+The downloaded source packages are in
+	'/tmp/Rtmpceb77j/downloaded_packages'
