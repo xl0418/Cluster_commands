@@ -5,7 +5,10 @@ cd R/
 cd cluster/
 
 # copy folder from local to cluster
-RN-145-97-167-57:cluster mac$ scp *.* p274981@peregrine.hpc.rug.nl:/home/p274981 
+scp *.* p274981@peregrine.hpc.rug.nl:/home/p274981 
+
+#copy LR.pdf from cluster to local
+scp LR.pdf p274981@peregrine.hpc.rug.nl:/home/p274981/ ~/Dropbox/R/cluster
 
 # connect cluster
 ssh -X p274981@peregrine.hpc.rug.nl
