@@ -16,5 +16,8 @@ ssh -X p274981@peregrine.hpc.rug.nl
 # check the files
 ls
 
+#job info
+jobinfo ID
+
 # run scripts
 sbatch ...
