@@ -21,3 +21,8 @@ jobinfo ID
 
 # run scripts
 sbatch ...
+
+#find some file with ".gz" not the files with ".tar.gz" and delete
+find . -name "*.gz" ! -name "*.tar.gz" -delete
+the same could be applied to the name of the files
+find . -name "*.Rdata" ! -name "*sim.Rdata" -delete
