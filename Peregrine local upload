@@ -26,3 +26,7 @@ sbatch ...
 find . -name "*.gz" ! -name "*.tar.gz" -delete
 the same could be applied to the name of the files
 find . -name "*.Rdata" ! -name "*sim.Rdata" -delete
+
+
+#change mod of files or folders
+chmod -R a+rwx filename
